@@ -1,0 +1,183 @@
+/* Style général pour le corps */
+body {
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f4f7f6; */
+    color: #333;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+.arrow{
+    font-size: 25px;
+}
+
+header{
+    background-color: rgb(224, 222, 222, 0.2);
+    /* position: fixed; */
+    width: 90vw;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+#add-form {
+    background-color: rgb(224, 222, 222, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30vw;
+    /* max-width: 800px; */
+}
+/* Conteneur principal pour un espacement harmonieux */
+
+/* Style pour les titres */
+h1 {
+    color:  #6921bb;
+    text-align: center;
+}
+
+#action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+/* Style pour les formulaires */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="date"], select {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+td button{
+    background-color: #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8a21bb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8a21bb;
+}
+
+/* Tableaux */
+table {
+    width: 90vw;
+    border-radius: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+td{
+    width: 22.5vw;
+}
+th, td {
+    text-align: center;
+    padding: 12px;
+}
+
+th {
+    background-color: #4c82af;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e2d7d7;
+}
+
+/* Style pour les liens */
+a {
+    color: #f2f7f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Boutons dans le tableau */
+.table-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+/* Détails de l'étudiant */
+.details {
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link{
+    display: flex;
+    gap: 2rem;
+    word-spacing: 5px;
+}
+
+.link a{
+    border: 1px solid lightgray;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color:  #6921bb;
+}
+.link a:hover{
+    background-color:  #7c29db;
+}
+
+img{
+    width: 20px;
+    height: auto;
+}
